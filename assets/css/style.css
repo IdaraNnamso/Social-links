@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px
+}
+
+:root {
+    --primary: hsl(75, 94%, 57%);
+    --white: hsl(0, 0%, 100%);
+    --grey: hsl(0, 0%, 20%);
+    --dark-grey: hsl(0, 0%, 12%);
+    --off-black: hsl(0, 0%, 8%);
+    --body: 14px;
+    --inter: Inter;
+    --normal: 400;
+    --medium: 600;
+    --bold: 700
+}
+
+.banner {
+    background-color: var(--off-black); 
+    height: 100vh; 
+    color: white;
+    font-family: var(--inter);
+}
+
+.card {
+    background-color: var(--dark-grey);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 350px;
+    border-width: 2px;
+    border-color: var(--primary);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px auto;
+}
+
+.card img {
+    width: 80px;
+    border-radius: 50%;
+}

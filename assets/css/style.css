@@ -22,6 +22,10 @@
     background-color: var(--off-black); 
     height: 100vh; 
     color: white;
+    display:flex;
+    align-items:center;
+    text-align: center;
+
     font-family: var(--inter);
 }
 
@@ -36,9 +40,27 @@
     border-radius: 20px;
     padding: 20px;
     margin: 0px auto;
+    height: auto;
+    row-gap:25px;
 }
 
 .card img {
     width: 80px;
     border-radius: 50%;
+}
+
+.card p, .card blockquote {  
+    font-size: var(--body);
+}
+
+p{
+    color: var(--primary);
+}
+
+h2{
+    margin-bottom: 5px;
+}
+
+.links a{
+    column-gap: 100%;
 }
